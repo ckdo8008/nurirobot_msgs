@@ -27,17 +27,8 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-# rosidl_generate_interfaces(nurirobot_msgs
-#   "msg/LslidarDifop.msg"
-#   "msg/LslidarPacket.msg"
-#   "msg/LslidarPoint.msg"
-#   "msg/LslidarScan.msg"
-#   "msg/LslidarSweep.msg"
-#   DEPENDENCIES builtin_interfaces std_msgs
-#   )
-
 rosidl_generate_interfaces(nurirobot_msgs
-  "msg/"
+  "msg/NurirobotPos.msg"
   DEPENDENCIES builtin_interfaces std_msgs
   )
 
