@@ -30,6 +30,7 @@ endif()
 rosidl_generate_interfaces(nurirobot_msgs
   "msg/NurirobotPos.msg"
   "msg/NurirobotSpeed.msg"
+  "msg/HCControl.msg"
   DEPENDENCIES builtin_interfaces std_msgs
   )
 
