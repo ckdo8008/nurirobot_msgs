@@ -3,3 +3,4 @@ uint16 xaxis
 uint16 yaxis
 uint16 adc
 bool clickbutton
+uint8 speed
